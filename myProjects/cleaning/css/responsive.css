@@ -1,0 +1,498 @@
+@charset "utf-8";
+@media screen and (max-width: 1200px){
+	
+	.wrap{
+		width: 96%;
+		padding-left: 2%;
+		padding-right: 2%;
+	}
+	nav{
+		width: 30px;
+	    border-top: 3px solid #fff;
+	    border-bottom: 3px solid #fff;
+	    position: relative;
+	    padding: 9px 0 !important;
+	    cursor: pointer;
+	   	margin: 25px 10px 18px 33px;
+	}
+	nav:after {
+	    content: '';
+	    display: block;
+	    height: 3px;
+	    width: 100%;
+	    position: absolute;
+	    background: #fff;
+	    top: 50%;
+	    margin-top: -1px;
+	}
+	nav ul {
+	    position: absolute;
+	    display: none;
+	    width: 240px;
+	    background: #fff;
+	    padding: 0;
+	    top: 45px;
+	    left: -15px;
+	    border-left: 1px solid #e6e6e6;
+	    border-right: 1px solid #e6e6e6;
+	    z-index: 49;
+	}
+	nav ul li {
+	    display: block;
+	    width: 100%;
+	    margin: 0;
+	    border-bottom: 1px solid #e6e6e6;
+	    margin-right: 0;
+	}
+	nav ul li a {
+	    display: block;
+	    border: none !important;
+	    padding: 12px 15px;
+	}
+	nav ul li{
+		margin-right: 0;
+	}
+	.main{
+		width: 100%;
+		margin-top: 20px;
+	}
+	h1{
+		font-size: 30px;
+		line-height: 35px;
+		white-space: normal;
+		padding-top: 30px;
+		max-width: 900px;
+		margin: 0 auto;
+	}
+	.main .transparent{
+		padding-top: 30px;
+	}
+	/*__product__*/
+	.product .top p{
+		white-space: normal;
+	}
+	.product .text .text-wrp{
+		width: 100%;
+	}
+	.product .text-wrp p{
+		white-space: normal;
+	}
+	h4{
+		padding-bottom: 10px;
+	}
+	/*__services__*/
+	.services-wrap{
+		text-align: center;
+	}
+	.services .item{
+		float: none;
+		display: inline-block;
+		vertical-align: top;
+		text-align: left;
+		margin-bottom: 30px;
+	}
+	/*__compare__*/
+	.compare .bx-wrapper{
+		width: 80%;
+	}
+	.compare-slider .text{
+		width: 90%;
+	}
+	.reviews .text{
+		font-size: 12px;
+		line-height: 17px;
+	}
+	.reviews .text p{
+		margin-bottom: 20px;
+		font
+	}
+	.reviews .text p:last-child{
+		margin-bottom: 0;
+	}
+	/*__request__*/
+	.request{
+		background-size: cover;
+	}
+	.request form input.comment {
+		margin-right: 0;
+	}
+	.request button[type="submit"]{
+		margin-top: 20px;
+	}
+	/*__question__*/
+	.question .img{
+		width: 31.62%;
+	}
+	.question .text{
+		width: 61.63%;
+	}
+	/*__certificate__*/
+	.certificate .bx-wrapper{
+		width: 80%;
+	}
+	footer .wrap {
+		text-align: left;
+	}
+	footer .polytic,
+	footer .phone-wrp{
+		position: static;
+	}
+	footer .phone-wrp{
+		float: right;
+		margin-top: -45px;
+	}
+	/*__popup-form__*/
+	.popup-form h2{
+		font-size: 35px;
+	}
+	.popup-form {
+		max-width: 370px;
+	}
+	.popup-form .form-wrp button {
+		margin-top: 0;
+	}
+	#parent_popup #popup {
+		font-size: 25px;
+	}
+	#parent_popup #popup {
+		width: 700px;
+		margin-left: -350px;
+	}
+	#popup .secrets{
+		width: 650px;
+	}
+	.secrets > span{
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+}
+
+@media screen and (max-width: 880px){
+	/*__header__*/
+	.main form input, button[type="submit"]{
+		display: block;
+		margin: 0 auto;
+	}
+	button[type="submit"]{
+		margin-top: 20px;
+	}
+	h2{
+		font-size: 25px;
+	}
+	.product .top p{
+		font-size: 14px;
+	    line-height: 22px;
+	    white-space: normal;
+	}
+
+	/*__product__*/
+	.product-row:nth-child(odd) .text, 
+	.product-row:nth-child(odd) .img,
+	.product-row:nth-child(even) .text,
+	.product-row:nth-child(even) .img{
+		float: none;
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+	.product .text-wrp p{
+		white-space: normal;
+	}
+	.product-row .img img{
+		float: none !important;
+		position: static;
+		margin: 0 auto;
+		width: 100%;
+		height: auto;
+	}
+	.product-row{
+		height: auto;
+	}
+	.product-row .text{
+		min-height: 1px;
+	}
+	.product-row .text .text-wrp{
+		padding: 0 !important;
+		width: 95%;
+		position: static;
+		-moz-transform:none; /*для Firefox*/
+		-webkit-transform:none; /*для Chrome и Safari*/
+		-o-transform:none; /*для Opera*/
+		-ms-transform:none; 
+		transform: none;
+		margin: 0 auto;
+		padding: 50px 0 !important;
+	}
+	.product .product-wrp{
+		padding-bottom: 0;
+	}	
+	/*__services__*/
+	.services .item{
+		margin: 0 auto;
+	    display: block;
+	    margin-bottom: 20px;
+	}
+	.services .item:last-child{
+		margin: 0 auto;
+	}
+	/*__compare__*/
+	.compare-slider .img{
+		width: 100%;
+		margin: 0 auto;
+		margin-bottom: -4px;
+	}
+	.compare-slider .img img{
+		width: 100%;
+	}
+	.reviews .text{
+		white-space: normal;
+	}
+	/*__request__*/
+	.request  p{
+	    font-size: 14px;
+	    line-height: 22px;
+	    white-space: normal;
+	}
+	.request form input{
+		display: block;
+		margin: 0 auto;
+	}
+	.request form input.comment {
+		margin: 0 auto;
+		margin-top: 20px;
+	}
+
+}
+@media screen and (max-width: 720px){
+	#parent_popup #popup h2{
+		font-size: 25px;
+		padding:20px 0;
+	}
+	#parent_popup #popup p{
+		font-size: 14px;
+		width: 300px;
+		margin: 0 auto;
+	}
+	#parent_popup #popup {
+		width: 350px;
+		margin-left: -175px;
+		margin-top: -225px;
+		height: 450px;
+	}
+	#popup .secrets{
+		height: auto;
+		text-align: center;
+		width: 300px;
+		padding: 15px 5px;
+	}
+	.secrets > span{
+		margin-top: 0;
+		margin-bottom: 20px;
+		display: block;
+	}
+}
+
+@media screen and (max-width: 640px){
+	/*__header__*/
+	.top-head .left,
+	.top-head .right{
+		float: none;
+		text-align: center;
+	}
+	header .phone{
+		color: #fff;
+	}
+	nav{
+		display: block;
+		margin: 0 auto;
+	}
+	nav ul{
+		 left: -103px;
+	}
+	.main form input,
+	button[type="submit"]{
+		width: 310px;
+	}
+	h1{
+		font-size: 18px;
+	    line-height: 23px;
+	}
+	h2{
+		font-size: 17px;
+	}
+	.main p{
+		font-size: 12px;
+		line-height: 22px;
+		white-space: normal;
+	}
+	.main .transparent{
+		font-size: 10px;
+		line-height: 20px;
+	}
+	/*__product___*/
+	h4{
+		font-size: 14px;
+		line-height: 22px;
+	}
+	.product .text-wrp p{
+		font-size: 10px;
+		line-height: 16px;
+		white-space: normal;
+	}
+	.product .text-wrp .italic{
+		font-size: 12px;
+		line-height: 18px;
+	}
+	/*__services___*/
+	.services .item .img,
+	.services .item{
+		max-width: 100%;
+	}
+	.services .item .img{
+		margin: 0;
+	}
+	.services .square-wrp{
+		width: 90%;
+		padding: 10%;
+		font-size: 12px;
+	}
+	/*__compare___*/
+	.compare .bx-wrapper{
+		width: 75%;
+	}
+	.compare-slider .text{
+		line-height: 18px;
+	}
+	.reviews .name{
+		font-size: 14px;
+		line-height: 22px;
+	}
+	/*__request__*/
+	.request form input {
+		width: 100%;
+		max-width: 100%;
+	}
+	.request  p{
+		font-size: 12px;
+		line-height: 20px;
+	}
+	.request .transparent{
+		padding-bottom: 20px;
+	}
+	/*__question__*/
+	.question h2{
+		text-align: center;
+	}
+	.question .img,
+	.question .text{
+		width: 90%;
+		float: none;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.question .img img{
+		display: block;
+		margin: 0 auto;
+	}
+	.question .text{
+		margin-top: 40px;
+	}
+	.question .text,
+	.question .text .last{
+		font-size: 12px;
+		line-height: 18px;
+	}
+	footer .wrap,
+	footer .polytic{
+		text-align: center;
+		font-size: 12px;
+		line-height: 19px;
+	}
+	footer .phone-wrp{
+		float: none;
+	}
+	footer .code{
+		margin: 20px 0; 
+	}
+	/*__pop-up__*/
+	.popup-text{
+		width: 310px;
+		margin-left: -155px;
+	} 
+	.popup-text .text-wrp h3 {
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 450px){
+	/*__compare___*/
+	.compare .bx-next,
+	.compare .bx-prev{
+		top: 100%;
+		margin-top: 20px;
+	}
+	.compare .bx-prev{
+		left: 30%;
+	}
+	.compare .bx-next{
+		right: 30%;
+	}
+	.reviews{
+		padding-top: 100px;
+	}
+	.compare-slider .text{
+		font-size: 10px;
+		left: 15px;
+		line-height: 14px;
+	}
+	.compare-slider .text p:first-child{
+		font-size: 12px;
+	}
+	.compare-slider .check{
+		right: 10px;
+		bottom: 10%;
+	}
+	/*__request__*/
+	input[type=text]::-webkit-input-placeholder { /* Chrome, Opera и т.д. */
+	    color: #7c7c7c;
+		font-size: 12px;
+		font-weight: 400;
+	}
+	input[type=text]:-moz-placeholder { /* Firefox 18- */
+	    color: #7c7c7c;
+		font-size: 12px;
+		font-weight: 400;
+	}
+	input[type=text]::-moz-placeholder {  /* Firefox 19+ */
+	   	color: #7c7c7c;
+		font-size: 12px;
+		font-weight: 400;
+	}
+	input[type=text]:-ms-input-placeholder { /* IE 10 */
+	    color: #7c7c7c;
+		font-size: 12px;
+		font-weight: 400;
+	}
+	button[type="submit"]{
+		font-size: 12px;
+	}
+	.popup-form {
+		width: 320px;
+		margin-left: -160px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

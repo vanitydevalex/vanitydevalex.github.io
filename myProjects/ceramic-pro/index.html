@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, maximum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="css/responsive.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="css/jquery.selectBox.css">
+	<link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox.css">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<title>Ceramic Pro</title>
+</head>
+<body>
+	<div class="container">
+		<header>
+			<div class="top-head">
+				<div class="col-left left">
+					<div class="logo-wrp">
+						<a href="/" class="img">
+							<img src="img/logo.png" alt="logoPhoto">
+						</a>
+						<div class="logo-name">
+							<span>Официальный представитель</span>
+							<img src="img/logo-text.png" alt="logoNamePhoto">
+							<span>Спб</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-right right">
+					<a class="phone" href="tel:88000000000">8 800 000 00 00</a>
+					<a class="callback open-callback-form" href="#"> Заказать обратный звонок</a>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="wrap">
+				<h1>Надоели царапины на кузове?
+				<span>Вернем блеск, как из автосалона, всего за 2 дня</span></h1>
+				<p class="under-title">Результат сохраняется от 1 года даже при агрессивной езде</p>
+				<div class="car-img">
+					<div class="jquery-comparison comp1 horizontal">
+						<div class="before">
+							<img src="img/audi-before.jpg" alt="carPhoto">
+						</div>
+						<div class="after">
+							<img src="img/audi-after.jpg" alt="carPhoto">
+						</div>
+					</div>
+					<div class="control slide-line"></div>
+				</div>
+				<div class="form-wrp">
+					<p>Оставьте заявку на покрытие Ceramic Pro до 1 августа и получите скидку 15%
+					+ подарок стоимостью до 5000 руб.</p>
+					<form id="form1" method="POST" action="javascript:void(0);" onSubmit="ajaxsend_form('1');">
+						<input type="hidden" name="form[Форма]" value="Заявка на покрытие + подарок">
+						<input type="text" name="phone[Телефон]" placeholder="Ваш номер телефона" class="phone-inp" data-required="true">
+						<button type="submit">Оставить заявку</button>
+					</form>
+				</div>
+			</div>
+			<div class="pluses">
+				<div class="wrap">
+					<div class="top-row">
+						<h2>Покрытие Ceramic Pro не просто убирает 
+						царапины, а защищает от:</h2>
+					</div>
+					<div class="pluses-wrp">
+					<div class="item-row">
+						<div class="item ico1">
+							<div class="text-wrp">
+								<h3>Мелких сколов и микроцарапин</h3>
+								<p>Песок, пыль, ветки деревьев, агрессивная автомойка 
+								не оставляют следов на кузове благодаря усиленной 
+								защите керамического покрытия</p>
+							</div>
+						</div>
+						<div class="item ico2">
+							<div class="text-wrp">
+								<h3>Перекрашивания</h3>
+								<p>Теперь не нужно каждый год освежать ЛКП на всем 
+								кузове. Вы экономите на автосервисе 10 — 70 тыс	руб.</p>
+							</div>
+						</div>
+					</div>
+					<div class="item-row">
+						<div class="item ico3">
+							<div class="text-wrp">
+								<h3>Поездок в автосервис из-за граффити</h3>
+								<p>Краска из баллона смывается с покрытия Ceramic Pro 
+								за 2 минуты с помощью влажной мягкой тряпки</p>
+							</div>
+						</div>
+						<div class="item ico4">	
+							<div class="text-wrp">	
+								<h3>Переживаний, что машина выглядит 
+										старше своих лет</h3>
+								<p>Ваша красотка должна всегда быть как новая, согласны? 
+								С покрытием Ceramic Pro эффект блеска «из автосалона» сохраняется минимум 2 года.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+		</header>
+		 <section class="compare">
+			<div class="wrap">
+				<h2>Оцените результаты нанесения 
+				Ceramic Pro в нашем ателье</h2>
+					<div class="compare-wrp clear">
+						<div class="img first">
+							<img src="img/before1.jpg" alt="comparePhoto">
+							<span class="before">Было</span>
+							<div class="text">
+								<p>Множественные царапины на капоте...... бла бла бла</p>
+							</div>
+						</div>
+						
+						<div class="img second">
+							<img src="img/after1.jpg" alt="comparePhoto">
+							<span class="after">Стало</span>
+							<div class="text">
+								<p>9 слоев Ceramic Pro ...  Срок нанесения: 2 дня и так далее по описанию.
+								Клиент получил гарантию 2 года.</p> 
+							</div>
+						</div>
+				</div>
+			</div>
+		</section>
+		<section class="request">
+			<div class="request-wrp">
+				<div class="wrap">
+					<h3>Оставьте заявку на покрытие Ceramic Pro до 1 августа и получите скидку 15%
+					+ подарок в зависимости от количества слоев Ceramic Pro</h3>
+					<div class="left-col left">
+						<div class="item">
+							<h4>Подарок №1. <span class="value">Ценность 700 руб. </span></h4>
+							<p>При заказе защитного покрытия первого уровня —
+							бесплатная полировка задней оптики.</p> 
+						</div>
+						<div class="item">
+							<h4>Подарок №2. <span class="value">Ценность 1500 руб.</span></h4>
+							<p>При заказе защитного покрытия второго уровня —
+							обработка передней полусферы покрытием Антидождь.</p>
+						</div>
+						<div class="item">
+							<h4>Подарок №3. <span class="value">Ценность 5000 руб.</span></h4>
+							 <p>При комплексном подходе салон+кузов —  
+							 обработка покрытием Антидождь всех стекол.</p>
+						</div>
+					</div>
+					<div class="right-col right">
+						<div class="form-wrp">
+							<form id="form2" method="POST" action="javascript:void(0);" onSubmit="ajaxsend_form('2');">
+								<input type="hidden" name="form[Форма]" value="Заявка на покрытие + подарок">
+								<input type="text" name="phone[Телефон]" placeholder="Ваш номер телефона" class="phone-inp" data-required="true">
+								<div class="select-wrp">
+									<select name="car-type[Тип кузова]">
+										<option disabled selected>Седан</option>
+										<option>Седан</option>
+										<option>Хэтч-бэк</option>
+										<option>Кроссовер</option>
+									</select>
+								</div>
+								<button type="submit">Оставить заявку</button>
+							</form>
+						</div>
+							<p class="or">Или</p>	
+							<p class="space">просто позвоните нам
+							на <a href="tel:88008008000">8 800 800 80 00</a></p>
+							<p class="viber">Пишите в Viber и WhatsApp по этому же номеру.</p>
+							<p class="light">Ваши данные в безопасности.</p>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+		</section>
+		<section class="bg-black">
+			<div class="protect">
+			<div class="wrap">
+			<h2>У нас также есть защита Ceramic Pro 
+			для других деталей</h2>
+				<div class="protect-wrp clear">
+					<div class="item ico1">
+						<div class="text">
+							<h3>Сиденья (ткань, кожа)</h3>
+							<p>Защита от пятен, выцветания и царапин
+							Средство: Ceramic Pro Textile</p>
+						</div>	
+					</div>
+					<div class="item ico2">
+						<div class="text">
+							<h3>Пластиковые элементы салона</h3>
+							<p>Защита от выцветания, механических
+							повреждений, дополнительный блеск
+							Средство: Ceramic Pro Plastics</p>
+						</div>	
+					</div>
+					<div class="item ico3">
+						<div class="text">
+							<h3>Диски</h3>
+							<p>Защита от сколов, грязи
+							Средство: Ceramic Pro Plastics</p>
+						</div>
+					</div>
+					<div class="item ico4">
+						<div class="text">
+							<h3>Стекла, фары</h3>
+							<p>Защита от влаги, пятен, царапин
+							Средство: Ceramic Pro Plastics</p>
+						</div>	
+					</div>
+				</div>	
+			</div>
+		</div>
+		</section>
+		
+		<section class="trouble">
+			<div class="wrap">
+				<h2>ТОП-6 неприятностей, 
+				которые предупреждает нанокерамика </h2>
+				<div class="trouble-wrp">
+					<div class="trouble-row">
+						<div class="item">
+							<p>Грязь, птичий помет, 
+							насекомые</p>
+						</div>
+						<div class="item">
+							<p>Соли для обработки 
+							улиц зимой
+						</div>
+						<div class="item">
+							<p>Выгорание</p>
+						</div>
+					</div>
+					<div class="trouble-row">
+						<div class="item">
+							<p>Коррозия</p>
+						</div>
+						<div class="item">
+							<p>Царапины и сколы</p>
+						</div>
+						<div class="item">
+							<p>Агрессивная «химия» 
+							на мойках</p>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</section>
+		<section class="level">
+			<div class="wrap">
+				<h2>Сколько стоит защита от царапин 
+				на 1 год и более с Ceramic Pro?</h2>
+				<p class="under-title">Дешевле, чем утренний кофе на заправке! Стоимость зависит от модели автомобиля 
+				и количества слоёв покрытия. Мы поможем выбрать оптимальную защиту для вашей красотки</p>
+				<div class="level-wrp clear">
+					<div class="item">
+						<div class="img">
+							<h2>Уровень 1</h2>
+						</div>
+						<div class="text">
+							<p>Дешевле, чем утренний кофе</p> 
+							<p>Стоимость зависит от модели 
+							Мы поможем выбрать оптимальную 
+							защиту для вашей красотки</p>
+							<p>Дешевле, чем утренний кофе</p> 
+							<p>Стоимость зависит от модели 
+							Мы поможем выбрать оптимальную 
+							защиту для вашей красотки</p>
+						</div>
+						<p class="price">От 10 000 руб.</p>
+						<p class="little-price">От 28 руб. в день из расчета на 1 год</p>
+						<span class="button open-order-form">Оставить заявку</span>
+					</div>
+					<div class="item">
+						<div class="img">
+							<h2>Уровень 2</h2>
+						</div>
+						<div class="text">
+							<p>Дешевле, чем утренний кофе</p> 
+							<p>Стоимость зависит от модели 
+							Мы поможем выбрать оптимальную 
+							защиту для вашей красотки</p>
+							<p>Дешевле, чем утренний кофе</p> 
+							<p>Стоимость зависит от модели 
+							Мы поможем выбрать оптимальную 
+							защиту для вашей красотки</p>
+						</div>
+						<p class="price">От 15 000 руб.</p>
+						<p class="little-price">От 41 руб. в день из расчета на 1 год</p>
+						<span class="button open-order-form">Оставить заявку</span>
+					</div>
+					<div class="item">
+						<div class="img">
+							<h2>Уровень 3</h2>
+						</div>
+						<div class="text">
+							<p>Дешевле, чем утренний кофе</p> 
+							<p>Стоимость зависит от модели 
+							Мы поможем выбрать оптимальную 
+							защиту для вашей красотки</p>
+							<p>Дешевле, чем утренний кофе</p> 
+							<p>Стоимость зависит от модели 
+							Мы поможем выбрать оптимальную 
+							защиту для вашей красотки</p>
+						</div>
+						<p class="price">От 25 000 руб.</p>
+						<p class="little-price">От 55 руб. в день из расчета на 1 год</p>
+						<span class="button open-order-form">Оставить заявку</span>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="result">
+			<div class="wrap">
+				<div class="top">
+					<div class="img">
+						<img src="img/result-logo.png" alt="photo">
+					</div>
+					<div class="text">Как официальный представитель 
+						Ceramic Pro мы отвечаем за результат
+					</div>
+				</div>
+				<div class="results-wrp clear">
+					<div class="item border">
+						<div class="text-wrp">
+							<p class="ico1">1-3 года гарантии на работы 
+							в зависимости от количества слоев покрытия</p> 
+						</div>	
+					</div>
+					<div class="item">
+						<div class="text-wrp">
+							<p class="ico2">Пожизненная гарантия на 10 и более слоев</p>
+						</div>	 
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="certificates">
+			<div class="wrap">
+				<h2>Убедитесь в подлинности наших документов</h2>
+				<div class="left">
+					<div class="certificate-wrp clear">
+						<a href="img/certificate1.jpg" class="open-certificates" rel="group1">
+							<img src="img/certificate1.jpg" alt="certificatePhoto">
+						</a>
+						<a href="img/certificate1.jpg" class="open-certificates" rel="group1">
+							<img src="img/certificate1.jpg" alt="certificatePhoto">
+						</a>
+						<a href="img/certificate1.jpg" class="open-certificates" rel="group1">
+							<img src="img/certificate1.jpg" alt="certificatePhoto">
+						</a>
+						<a href="img/certificate1.jpg" class="open-certificates" rel="group1">
+							<img src="img/certificate1.jpg" alt="certificatePhoto">
+						</a>
+					</div>
+				</div>
+				<div class="right">
+					<div class="text attention">
+						<h3>Внимание:</h3>
+						<p>на досках объявлений покупают пустые емкости от покрытия 
+						Ceramic Pro. Это делают мошенники, чтобы под видом настоящей
+						защиты нанести на кузов дешевую подделку. </p>
+					</div>
+					<div class="text work">
+						<p>Неквалифицированный мастер может испортить «родное» ЛКП автомобиля, и его восстановление обойдется в 10 – 70 тыс. руб.</p>
+						<p>Чтобы работать с материалом на высшем уровне, наши мастера прошли обучение и сдали экзамены у производителя Nanoshine.</p>
+						<p class="last">Мы заказываем Ceramic Pro напрямую у производителя.</p>
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</section>
+		<section class="works">
+			<div class="wrap">
+				<h2>Смотрите, как мы работаем</h2>
+				<div class="works-wrp">
+					<div class="video first">
+						<iframe width="100%" height="100%" src="https://www.youtube.com/embed/VSUblUc-c80" frameborder="0" allowfullscreen></iframe>
+					</div>	
+					<div class="video">	
+						<iframe width="100%" height="100%" src="https://www.youtube.com/embed/pQ9EK4gTmCQ" frameborder="0" allowfullscreen></iframe>
+					</div>	
+				</div>
+			</div>
+		</section>
+		<section class="contacts">
+			<div class="map" id="map"></div>
+			<div class="top">
+				<h2>Приезжайте на консультацию эксперта по защите ЛКП</h2>
+				<p>Предварительно позвоните на <a href="tel:88008080">8 800 80 80</a>, чтобы мастер уделил вам максимум внимания</p>
+			</div>
+			<div class="box">
+				<p>г. Санкт-Петербург, 
+				ул. Химиков, д.2 (м. Ладожская)</p>
+				<a class="phone" href="tel:+79219253934">+7 (921) 925-39-34</a>
+			</div>
+		</section>
+		<footer>
+				<div class="col-left left">
+					<div class="logo-wrp">
+						<a href="/" class="img">
+							<img src="img/logo.png" alt="logoPhoto">
+						</a>
+						<div class="logo-name">
+							<span>Официальный представитель</span>
+							<img src="img/logo-text.png" alt="logoNamePhoto">
+							<span>Спб</span>
+							<a class="polytic open-politics" href="#">Политика конфиденциальности</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-right right">
+					<a class="phone" href="tel:88000000000">8 800 000 00 00</a>
+					<a class="callback open-callback-form" href="#"> Заказать обратный звонок</a>
+				</div>
+				<div class="clear"></div>
+		</footer>
+		<div class="dialogs">
+		    <div class="opacity"></div>
+		    <div class="popup-form order-form">
+       			<div class="close"></div>
+       			<div class="request-wrp">
+					<h3>Оставьте заявку на покрытие Ceramic Pro до 1 августа и получите скидку 15%
+					+ подарок в зависимости от количества слоев Ceramic Pro</h3>
+					<div class="left-col left">
+						<div class="item">
+							<h4>Подарок №1. <span class="value">Ценность 700 руб. </span></h4>
+							<p>При заказе защитного покрытия первого уровня —
+							бесплатная полировка задней оптики.</p> 
+						</div>
+						<div class="item">
+							<h4>Подарок №2. <span class="value">Ценность 1500 руб.</span></h4>
+							<p>При заказе защитного покрытия второго уровня —
+							обработка передней полусферы покрытием Антидождь.</p>
+						</div>
+						<div class="item">
+							<h4>Подарок №3. <span class="value">Ценность 5000 руб.</span></h4>
+							 <p>При комплексном подходе салон+кузов —  
+							 обработка покрытием Антидождь всех стекол.</p>
+						</div>
+					</div>
+					<div class="right-col right">
+						<div class="form-wrp">
+							<form id="form3" method="POST" action="javascript:void(0);" onSubmit="ajaxsend_form('3');">
+								<input type="hidden" name="form[Форма]" value="Заявка на покрытие + подарок">
+								<input type="hidden" name="level[Уровень]" class="levels" value="Уровень 1">
+								<input type="text" name="phone[Телефон]" placeholder="Ваш номер телефона" class="phone-inp" data-required="true">
+								<div class="select-wrp">
+									<select name="car-type[Тип кузова]">
+										<option disabled selected>Седан</option>
+										<option>Седан</option>
+										<option>Хэтч-бэк</option>
+										<option>Кроссовер</option>
+									</select>
+								</div>
+								<button type="submit">Оставить заявку</button>
+							</form>
+						</div>
+							<p class="or">Или</p>	
+							<p class="space">просто позвоните нам
+							на <a href="tel:88008008000">8 800 800 80 00</a></p>
+							<p class="viber">Пишите в Viber и WhatsApp по этому же номеру.</p>
+							<p class="light">Ваши данные в безопасности.</p>
+					</div>
+					<div class="clear"></div>
+			</div>
+       		</div>
+       		 <div class="popup-callback callback-form">
+	       		<div class="close"></div>
+	       		<div class="form-wrp">
+	       			<h2>Заказать 
+	       			обратный звонок</h2>
+	       			<form id="form4" method="POST" action="javascript:void(0);" onSubmit="ajaxsend_form('4');">
+						<input type="hidden" name="form[Форма]" value="Обратный звонок">
+						<input type="text" name="phone[Телефон]" placeholder="Ваш номер телефона" class="phone-inp" data-required="true">
+						<button type="submit">Оставить заявку</button>
+					</form>
+	       		</div>
+	       	</div>
+	       	<div class="popup-text politics-popup">
+	       		<div class="close"></div>
+	       		<div class="text-wrp">
+	       			<h3>Соглашение об обработке персональных данных</h3>
+					<p>Данное соглашение об обработке персональных данных разработано в соответствии с законодательством Российской Федерации.</p>
+					<p>Все лица заполнившие сведения, составляющие персональные данные на данном сайте, а также разместившие иную информацию обозначенными действиями подтверждают свое согласие на обработку персональных данных и их передачу оператору обработки персональных данных.</p>
+					<p>Под персональными данными Гражданина понимается нижеуказанная информация: <br>
+					общая информация (Имя, телефон и адрес электронной почты); посетители сайта направляют свои персональные данные для получения услуг расчёта стоимости заказа.</p>
+					<p>Гражданин, принимая настоящее Соглашение, выражают свою заинтересованность и полное согласие, что обработка их персональных данных может включать в себя следующие действия: сбор, систематизацию, накопление, хранение, уточнение (обновление, изменение), использование, уничтожение.</p>
+					<p>Гражданин гарантирует: информация, им предоставленная, является полной, точной и достоверной; при предоставлении информации не нарушается действующее законодательство Российской Федерации, законные права и интересы третьих лиц; вся предоставленная информация заполнена Гражданина в отношении себя лично.</p>
+	       		</div>
+	       	</div>
+		    <div class="hide" id="parent_popup">
+		        <div id="popup">
+		        <div class="close"></div>
+		            <h2>Спасибо за заявку!</h2>
+		            <p class="callback">Мы перезвоним через 15 минут и поможем рассчитать точную стоимость работ.</p>
+		            <p class="visit">А пока заходите в наш Инстаграм и посмотрите, как мы живем и работаем <span>@cibercar</span></p>
+		            <a class="insta" href="#">Посетить наш Instagram</a>
+		        </div>
+		    </div>
+		</div>
+
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="js/min/main-min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyChdqayOr9C1ZII4aiW0nzuyvFmU01eGZg"></script>
+	<script type="text/javascript">
+    	function initialize() {
+	        var mapOptions2 = {
+	            zoom: 14,
+	            disableDefaultUI: true, 
+	            scrollwheel: false,  
+	            center: new google.maps.LatLng(59.975266, 30.467546),
+	            styles: [{"stylers":[{"hue":"#ff1a00"},{"invert_lightness":true},{"saturation":-100},{"lightness":33},{"gamma":0.5}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#2D333C"}]}]
+	               
+	        };
+	        var map = new google.maps.Map(document.getElementById('map'),
+	                mapOptions2);
+
+	        var image = 'img/map-ico.png';
+	        
+	        var spb = new google.maps.LatLng(59.965875, 30.468823);
+	       
+	        new google.maps.Marker({
+	            position: spb,
+	            map: map,
+	            icon: image
+	        });
+	    }
+
+	    google.maps.event.addDomListener(window, 'load', initialize);
+
+	</script> 
+	
+</body>
+</html>

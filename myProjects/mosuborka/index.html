@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, maximum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="css/responsive.css" rel="stylesheet" type="text/css">
+	<link href="css/jquery.selectBox.css" rel="stylesheet" type="text/css">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<title>Химчистка мягкой мебели и ковров</title>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-80988977-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+	<noindex><script async src="data:text/javascript;charset=utf-8;base64,ZnVuY3Rpb24gbG9hZHNjcmlwdChlLHQpe3ZhciBuPWRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoInNjcmlwdCIpO24uc3JjPSIvL2xwdHJhY2tlci5ydS9hcGkvIitlO24ub25yZWFkeXN0YXRlY2hhbmdlPXQ7bi5vbmxvYWQ9dDtkb2N1bWVudC5oZWFkLmFwcGVuZENoaWxkKG4pO3JldHVybiAxfXZhciBpbml0X2xzdGF0cz1mdW5jdGlvbigpe2xzdGF0cy5zaXRlX2lkPTIyNTc0O2xzdGF0cy5yZWZlcmVyKCl9O3ZhciBqcXVlcnlfbHN0YXRzPWZ1bmN
+	0aW9uKCl7alFzdGF0Lm5vQ29uZmxpY3QoKTtsb2Fkc2NyaXB0KCJzdGF0c19hdXRvLmpzIixpbml0X2xzdGF0cyl9O2xvYWRzY3JpcHQoImpxdWVyeS0xLjEwLjIubWluLmpzIixqcXVlcnlfbHN0YXRzKQ=="></script></noindex>
+</head>
+<body>
+	<div class="container">
+		<header>
+				<div class="header-bg">
+					<img src="img/header-bg.jpg" alt="header-bg">
+				</div>
+				<div class="top-head clear">
+					<div class="left">
+						<div class="logo">
+							<a href="/"><img src="img/logo.png" alt="photo"></a>
+							<div class="icons">Химчистка мягкой мебели и ковров</div>
+						</div>
+					</div>
+					<div class="right">
+						<div class="phone-wrp">
+							<a class="phone" href="tel:+74955323797"><span class="lptracker_phone">+7(495)532-37-97</span></a>
+								<div class="phone-ico">
+									<form id="form1" method="POST" action="javascript:void(0);" onSubmit="ajaxsend_form('1');" class="callbacknow">
+										<input type="hidden" name="form[Форма]" value="Заказ обратного звонка">
+										<input type="text" name="phone[Телефон]" placeholder="(495) 000 - 00 - 00" class="phone-inp" data-required="true">
+										<button></button>
+									</form>
+								</div>
+						</div>
+					</div>
+				</div>
+				<div class="main-wrp">
+					<div class="wrap">
+						<h1><strong>Бережная химчистка и моментальная сушка</strong>
+							мягкой мебели и ковровых покрытий <span class="red">от 180 руб!</span></h1>
+							
+						<div class="main clear">
+							<div class="form-wrp right">
+								<form id="form2" method="POST" action="javascript:void(0);" onSubmit="ajaxsend_form('2');">
+								<input type="hidden" name="form[Форма]" value="Рассчет стоимости">
+									<p>Получите расчет стоимости за 5 минут!</p>
+									<div class="row clear">
+											<span class="size">Количество кресел/стульев</span>
+											<div class="select-wrp">
+												<select name="amchair[Количество Кресел]">
+													<option disabled selected>2</option>
+													<option>1</option>
+													<option>2</option>
+													<option>3</option>
+													<option>4</option>
+													<option>5</option>
+													<option>6</option>
+													<option>7</option>
+													<option>8</option>
+													<option>9</option>
+													<option>10</option>
+													<option>10-15</option>
+													<option>15-20</option>
+													<option>20-30</option>
+													<option>30-50</option>
+													<option>>50</option>
+												</select>
+											</div>
+											
+									</div>
+									<div class="row clear">
+											<span class="size">Количество диванов</span>
+											<div class="select-wrp sofa">
+												<select name="sofa[Количество Диванов]">
+													<option disabled selected>3</option>
+													<option>1</option>
+													<option>2</option>
+													<option>3</option>
+													<option>4</option>
+													<option>5</option>
+													<option>6</option>
+													<option>7</option>
+													<option>8</option>
+													<option>9</option>
+													<option>10</option>
+													<option>10-15</option>
+													<option>15-20</option>
+													<option>20-30</option>
+													<option>30-50</option>
+													<option>>50</option>
+												</select>
+											</div>
+									</div>
+									<div class="row clear">
+										<span class="size last">Площадь ковра/<br>
+										коврового покрытия</span>
+										<div id="slider" class="right">
+											<span class="start">0</span>
+											<span class="finish">500</span>
+										</div>
+									</div>
+									<input type="text" name="phone[Телефон]" placeholder="(495) 000 - 00 - 00" class="phone-inp" data-required="true">
+									<input type="hidden" name="razmer[Размер ковра, м.кв.]" class="razmer">
+									<button type="submit">ПОЛУЧИТЬ РАСЧЕТ</button>
+									<p class="min-zakaz">* Минимальный заказ 5000 руб.</p>
+								</form>
+							</div>
+							<div class="text right">
+								<p>Специальные условия</p>
+								<p>для кафе, ресторанов, конференц-залов, гостинц, пассажирских компаний.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+		</header>
+		<section class="pluses">
+			<div class="wrap">
+				<div class="pluses-wrp">
+					<div class="item-wrp clear">
+						<div class="item i1">
+							Идеальный вид мебели 
+							и ковров - как будто только 
+							из магазина!
+						</div>
+						<div class="item i2">
+							Сушка <strong>за 15 минут</strong> 
+							по технологии Quick Dry
+						</div>
+						<div class="item i3">
+							Аккуратный подбор чистящих 
+							средство в зависимости
+							от тканей и материалов
+						</div>
+						<div class="item i4">
+							Мы почистили <strong>более</strong> 
+							<strong>240</strong> единиц мягкой мебели, 
+							<strong>более 15км²</strong> ковров
+						</div>
+					</div>
+					<p>Приедем в день обращения, обслуживание 24/7</p>	
+				</div>
+			</div>
+		</section>
+		<section class="compare">
+			<div class="wrap">
+				<h2><strong>Ваша мебель будет как новая</strong>
+				посмотрите сами!</h2>
+				<div class="slider-wrp">
+					<ul class="compare-slider">
+						<li> 
+							<div class="img left">
+								<img src="img/before1.jpg" alt="photo">
+								<div class="text arrows">
+		                        	<h4>Задача:</h4>
+		                        	<p>Очистить ковролин синтетический 60 м².
+		                        	Загрязнения общие(слабые), пятна от ржавчины.
+		                        	Хозяйка пыталась очистить его
+		                        	с помощью средств для ковролина.</p>
+		                        </div>
+							</div>
+							<div class="img right">
+								<img src="img/after1.jpg" alt="photo">
+								<div class="text">
+		                        	<h4>Решение:</h4>
+		                        	<p>1 сотрудник провел химическую читку ковролина за
+		                        	1 час, благодаря специально подобранным средства
+		                        	ржавчина удалилась с легкостью. 
+									По системе Quick Dry ковролин был просушен за 20 минут. 
+									Улыбка хозяйки - лучшая награда для нас!</p>
+		                        </div>
+							</div>
+							<div class="clear"></div>
+						</li>
+						<li> 
+							<div class="img left">
+								<img src="img/before2.jpg" alt="photo">
+								<div class="text arrows">
+		                        	<h4>Задача:</h4>
+		                        	<p>Очистить 28 кресел в кафе летнего типа, тип
+		                        	материала - шинил, часть спинки флок.
+		                        	Загрязнения общие- средние, небольшие пятна от
+		                        	напитков и масляные пятна на некоторых креслах.</p>
+		                        </div>
+							</div>
+							<div class="img right">
+								<img src="img/after2.jpg" alt="photo">
+								<div class="text">
+		                        	<h4>Решение:</h4>
+		                        	<p>5 сотрудников очистили кресла за 3 часа,
+		                        	сушка по технологии Quick Dry
+		                        	позволила просушить кресла за 45 минут.</p>
+		                        </div>
+							</div>
+							<div class="clear"></div>
+						</li>
+						<li> 
+							<div class="img left">
+								<img src="img/before3.jpg" alt="photo">
+								<div class="text arrows">
+		                        	<h4>Задача:</h4>
+		                        	<p>Очистить домашнее любимое кресло для просмотра сериалов.
+		                        	Хозяин бережно и аккуратно относился к нему,
+		                        	но кресло очень старое, 
+		                        	оно потеряло вид и появились потемнения.</p>
+		                        </div>
+							</div>
+							<div class="img right">
+								<img src="img/after3.jpg" alt="photo">
+								<div class="text">
+		                        	<h4>Решение:</h4>
+		                        	<p>Очистили с помощью специально подобранных
+		                        	средств, чистка заняла 25 минут +сушка Qiuck Dry.
+		                        	Покупка нового кресла обошлась бы в 10 000 руб,
+		                        	а химчистка всего лишь 1500 руб! 
+		                        	Теперь хозяин может наслаждаться
+		                        	новыми сериалами в любимом
+		                        	чистом кресле!</p>
+		                        </div>
+							</div>
+							<div class="clear"></div>
+						</li>
+						<li> 
+							<div class="img left">
+								<img src="img/before4.jpg" alt="photo">
+								<div class="text arrows">
+		                        	<h4>Задача:</h4>
+		                        	<p>Химчистка 45 диванов в восточном ресторане,
+		                        	открытом в 2015 году. Диваны в хорошем состоянии,
+		                        	материал лен. Небольшие потемнения и загрязненность
+		                        	(ни разу не чистили с помощью химических средств)</p>
+		                        </div>
+							</div>
+							<div class="img right">
+								<img src="img/after4.jpg" alt="photo">
+								<div class="text">
+		                        	<h4>Решение:</h4>
+		                        	<p>Ресторан был закрыт на генеральную уборку перед
+		                        	открытием летнего сезона. Пока сотрудники ресторана
+		                        	мыли другие поверхности наши 10 сотрудников
+		                        	очистили диваны. Благодаря индивидуально
+		                        	подобранным средствам и моментальной сушке quick
+		                        	dry - чистка прошла быстро и четко! Диваны стали
+		                        	как новые, а сотрудники и гости наслаждаются
+		                        	чистотой и свежестью в ресторане.</p>
+		                        </div>
+							</div>
+							<div class="clear"></div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		 <section class="request">
+			<div class="wrap">
+				<h2><strong>Оставьте заявку</strong> на химчистку мягкой мебели 
+				или ковра <strong>до <span class="date">9 июля</span> и</strong> <span class="red">получите БЕСПЛАТНУЮ сушку!</span></h2>
+				<div class="form-wrp">
+					<form id="form3" method="POST" action="javascript:void(0);" onSubmit="ajaxsend_form('3');">
+						<input type="hidden" name="form[Форма]" value="Бесплатная сушка">
+						<input type="text" name="name[Имя]" placeholder="Ваше имя" class="name-inp">
+						<input type="text" name="phone[Телефон]" placeholder="(495) 000 - 00 - 00" class="phone-inp" data-required="true">
+						<button type="submit">Оставить Заявку</button>
+					</form>
+				</div>
+			</div>
+		</section>
+		<section class="clients">
+			<div class="wrap">
+			<h2><strong>12 крупнейших сетей ресторанов</strong>
+			пользуются нашими услугами</h2>
+				<div class="clients-wrp clear">
+					<a href="#" class="item">
+						<img src="img/client1.jpg" alt="photo">
+					</a>
+					<a href="#" class="item">
+						<img src="img/client2.jpg" alt="photo">
+					</a>
+					<a href="#" class="item">
+						<img src="img/client3.jpg" alt="photo">
+					</a>
+					<a href="#" class="item">
+						<img src="img/client4.jpg" alt="photo">
+					</a>
+					<a href="#" class="item">
+						<img src="img/client5.jpg" alt="photo">
+					</a>
+					<a href="#" class="item">
+						<img src="img/client6.jpg" alt="photo">
+					</a>
+					<a href="#" class="item">
+						<img src="img/client7.jpg" alt="photo">
+					</a>
+					<a href="#" class="item">
+						<img src="img/client8.jpg" alt="photo">
+					</a>
+					<a href="#" class="item">
+						<img src="img/client9.jpg" alt="photo">
+					</a>
+					<a href="#" class="item">
+						<img src="img/client10.jpg" alt="photo">
+					</a>
+					<a href="#" class="item">
+						<img src="img/client11.jpg" alt="photo">
+					</a>
+					<a href="#" class="item">
+						<img src="img/client12.jpg" alt="photo">
+					</a>
+				</div>
+			</div>
+		</section>
+		<section class="trial">
+			<div class="left">
+					<img src="img/trial-img.jpg" alt="photo">
+			</div>
+			<div class="right">
+				<div class="text">
+					<h2><span class="red">Идеальный вариант</span>
+					для кафе, ресторанов,
+					конференц-залов, офисов
+					и гостиниц</h2>
+					<p>Оставьте заявку 
+						на <span class="red">бесплатную</span> пробную химчистку!</p>
+					<div class="form-wrp">
+						<form id="form4" method="POST" action="javascript:void(0);" onSubmit="ajaxsend_form('4');">
+							<input type="hidden" name="form[Форма]" value="Пробная химчистка">
+							<input type="text" name="phone[Телефон]" placeholder="(495) 000 - 00 - 00" class="phone-inp" data-required="true">
+							<button type="submit" name="try">ПОПРОБЫВАТЬ БЕСПЛАТНО</button>
+						</form>
+					</div>
+					<p>Приедем, почистим и высушим мебель за ночь - <span class="red">утром все будет сухо и готово к приему гостей!</span></p>
+				</div>	
+			</div>
+			<div class="clear"></div>
+		</section>
+		<section class="reviwes">
+			<div class="wrap">
+				<h2><strong>Прочитайте отзывы</strong> наших клиентов</h2>
+				<div class="carousel-container">
+                    <div id="carousel">
+                    	<div class="carousel-feature">
+                            <div class="img">
+                            	<img class="carousel-image" src="img/feedback2.jpg" alt="photo">
+                            </div>
+                            <div class="text carousel-caption">
+                            	<p>«Оперативно всё почистили и высушили»</p>
+                            	<p>У нас с женой большой дом. После приезда друзей на выходные и празднования моего Дня Рождения наша мебель и ковры потеряли прежний вид. Заказали Мос-Уборку. Отличная компания, сотрудники - приветливые молодые люди - оперативно всё почистили и высушили. Мебель преобразилась, а ковры просто блестели. Спасибо за вашу помощь с уборкой!</p>
+                            	<p><span class="name">Юрий Шабалин</span>, юрист</p>
+                            </div>
+                        </div>
+                        <div class="carousel-feature">
+                            <div class="img">
+                            	<img class="carousel-image" src="img/feedback1.jpg" alt="photo">
+                            </div>
+                            <div class="text carousel-caption">
+                            	<p>«Через 2 часа мой диван сверкал»</p>
+                            	<p>После ребёнка наш диван в гостиной был в разных пятнах и следах от карандашей и фломастера. Чем я только его не мыла и не чистила, 
+                            	оставались только размытые пятна и разводы. Думали даже менять мебель. Моя соседка посоветовала мне Мос-Уборку.  И вот результат - 
+                            	через 2 часа мой диван сверкал, и я была готова принимать гостей! Спасибо ребятам за высокое качество работы и
+                            	профессионализм!</p>
+                            	<p><span class="name">Наталья Анисимова</span>, домохозяйка</p>
+                            </div>
+                        </div>
+                        <div class="carousel-feature">
+                            <div class="img">
+                            	<img class="carousel-image" src="img/feedback3.jpg" alt="photo">
+                            </div>
+                            <div class="text carousel-caption">
+                            	<p>«После уборки все диваны и ковры были сухие»</p>
+                            	<p>Утром узнала, что завтра в нашем автосалоне будет проверка чистоты офисов и выставочного зала. Решила быстро сделать химчистку всей офисной мебели и ковров. Коллеги порекомендовали Мос-Уборку. Специалисты приехали в день обращения. Очень удобно, что после уборки все диваны и ковры были сухие. Выставочный зал смотрелся очень свежим и обновлённым. Огромным плюсом ещё стала скидка и хорошее настроение специалистов. Спасибо!</p>
+                            	<p><span class="name">Наталья Ефременко</span>, администратор автосалона</p>
+                            </div>
+                        </div>
+                        <div class="carousel-feature">
+                            <div class="img">
+                            	<img class="carousel-image" src="img/feedback4.jpg" alt="photo">
+                            </div>
+                            <div class="text carousel-caption">
+                            	<p>«Утром я просто не узнала наш старый офис!»</p>
+                            	<p>Стала замечать, что внешний вид офиса уступает статусу нашей компании. Администратор заказал в вашей компании химчистку всей мебели и ковров офиса. Утром я просто не узнала наш старый офис! Он стал ярким, чистым, не было ни старых пятен, ни потёртостей. Ковролин как новый! Спасибо за высокое качество и чистоту!</p>
+                            	<p><span class="name">Надежда Герусова</span>, директор ООО «ЭстаБьюти»</p>
+                            </div>
+                        </div>
+                        <div class="carousel-feature">
+                            <div class="img">
+                            	<img class="carousel-image" src="img/feedback5.jpg" alt="photo">
+                            </div>
+                            <div class="text carousel-caption">
+                            	<p>«Сложилось впечатление, что мы сделали замену обивки»</p>
+                            	<p>Делали химчистку офисов ко дню рождения нашей компании. И результат говорит сам за себя! Быстро, аккуратно, а самое главное - после уборки сложилось впечатление, что мы сделали замену обивки и коврового покрытия. Молодцы. Успехов и процветания вашей компании, спасибо за качественную работу!</p>
+                            	<p><span class="name">Владимир Разумовский</span>, директор ООО «МегаЛон»</p>
+                            </div>
+                        </div>
+                        <div class="carousel-feature">
+                            <div class="img">
+                            	<img class="carousel-image" src="img/feedback6.jpg" alt="photo">
+                            </div>
+                            <div class="text carousel-caption">
+                            	<p>«Зал у меня просто блестел спустя пару часов»</p>
+                            	<p>Отличная компания, приехали в назначенное время, всё сделали быстро и качественно! Не знаю чем они мыли, но зал у меня просто блестел спустя пару часов! Рекомендую всем!</p>
+                            	<p><span class="name">Сергей</span>, управляющий рестораном "Кефир"</p>
+                            </div>
+                        </div>
+                        <div class="carousel-feature">
+                            <div class="img">
+                            	<img class="carousel-image" src="img/feedback7.jpg" alt="photo">
+                            </div>
+                            <div class="text carousel-caption">
+                            	<p>«Ребята удивили, сказав, что они сушат мебель за 15 минут»</p>
+                            	<p>В нашем ресторане было необходимо срочно сделать химчистку зала перед важным мероприятием, обратились в Мос-Уборку. Я беспокоился, что придется закрыть ресторан на время, пока мебель не высохнет, но ребята удивили, сказав, что они сушат мебель за 15 минут! Первый раз встречаю такой сервис, могу с уверенностью сказать, что подобного никто не предлагает. Спасибо за налаженную работу, остались довольны, теперь будем работать только с вами.</p>
+                            	<p><span class="name">Александр</span>, администратор кафе "Улитка"</p>
+                            	
+                            </div>
+                        </div>
+                        <div class="carousel-feature">
+                            <div class="img">
+                            	<img class="carousel-image" src="img/feedback8.jpg" alt="photo">
+                            </div>
+                            <div class="text carousel-caption">
+                            	<p>«От ковров стало пахнуть приятно»</p>
+                            	<p>Делала генеральную уборку дома. Решила привести мебель и ковры в порядок профессионально. В Мос-Уборке расчитали цену за 15 минут, и приехали в день обращения. Ребята очистили все пятна и грязь, а от ковров стало пахнуть приятно. Не то, что было раньше. Цена услуги также оказалась приемлемой. Рекомендую всем, спасибо!</p>
+                            	<p><span class="name">Юлия Денисова</span>, секретарь</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+			</div>
+		</section>
+		<section class="question">
+			<div class="wrap">
+				<div class="question-wrp">
+					<h2><strong>Остались вопросы?</strong>
+					Задайте их специалисту прямо сейчас!</h2>
+					<div class="form-wrp">
+						<p>Мы накопили уникальный опыт, и теперь готовы поделиться им с вами!</p>
+						<form id="form5" method="POST" action="javascript:void(0);" onSubmit="ajaxsend_form('5');">
+							<input type="hidden" name="form[Форма]" value="Вопросы">
+							<input type="text" name="phone[Телефон]" placeholder="(495) 000 - 00 - 00" class="phone-inp" data-required="true">
+							<textarea name="question[Вопрос]" placeholder="Чем мы можем вам помочь?"></textarea>
+							<button type="submit">ЗАДАТЬ ВОПРОС</button>
+						</form>
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</section>
+		<footer>
+				<div class="footer-logo">
+					<img src="img/footer-logo.png" alt="footerLogo">
+					<p>Химчистка мягкой мебели
+					и ковров</p>	
+				</div>
+			<div class="wrap">
+				<div class="center">
+					<p>ОГРН: 1157746856409</p>
+					<a href="#" class="polytic open-politics">Политика конфиденциальности</a>
+				</div>
+			</div>
+				<div class="phone-wrp">
+					<a class="phone" href="tel:+74955323797"><span class="lptracker_phone">+7(495)532-37-97</span></a>
+				</div>
+				<div class="clear"></div>
+		</footer>
+
+		<div class="dialogs">
+		    <div class="opacity"></div>
+		    <div class="popup-politic politics-popup">
+	       		<div class="close"></div>
+	       		<div class="text-wrp">
+	       			<h2>Соглашение об обработке персональных данных</h2>
+					<p>Данное соглашение об обработке персональных данных разработано в соответствии с законодательством Российской Федерации.</p>
+					<p>Все лица заполнившие сведения, составляющие персональные данные на данном сайте, а также разместившие иную информацию обозначенными действиями подтверждают свое согласие на обработку персональных данных и их передачу оператору обработки персональных данных.</p>
+					<p>Под персональными данными Гражданина понимается нижеуказанная информация: <br>
+					общая информация (Имя, телефон и адрес электронной почты); посетители сайта направляют свои персональные данные для получения услуг расчёта стоимости заказа.</p>
+					<p>Гражданин, принимая настоящее Соглашение, выражают свою заинтересованность и полное согласие, что обработка их персональных данных может включать в себя следующие действия: сбор, систематизацию, накопление, хранение, уточнение (обновление, изменение), использование, уничтожение.</p>
+					<p>Гражданин гарантирует: информация, им предоставленная, является полной, точной и достоверной; при предоставлении информации не нарушается действующее законодательство Российской Федерации, законные права и интересы третьих лиц; вся предоставленная информация заполнена Гражданина в отношении себя лично.</p>
+	       		</div>
+	       	</div>
+		    <div class="hide" id="parent_popup">
+		        <div id="popup">
+		        <div class="close"></div>
+			        <div class="popup-text">
+			            <h2>Спасибо за заявку</h2>
+			            <p>Мы свяжемся с вами в ближайшее время!</p>
+			        </div>    
+		        </div>
+		    </div>
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="js/min/main-min.js" type="text/javascript"></script>
+	<!-- Yandex.Metrika counter --> <script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter38580600 = new Ya.Metrika({ id:38580600, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/38580600" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+</body>
+</html>
